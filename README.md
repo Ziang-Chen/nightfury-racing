@@ -1,4 +1,4 @@
-![NIGHTFURY 游戏海报](dist/covers/poster.jpg)
+![NIGHTFURY 游戏海报](dist/covers/poster.jpg?v=26-hq)
 
 # NIGHTFURY · 极夜狂飙
 
@@ -46,22 +46,45 @@ python3 -m http.server 8768 --directory dist
 
 | 云端回环 | 霸王龙断桥 |
 | --- | --- |
-| ![AI 驶过云端回环](https://ziang-chen.github.io/nightfury-racing/highlights/sky.gif) | ![AI 飞过霸王龙身旁的断桥](https://ziang-chen.github.io/nightfury-racing/highlights/canyon.gif) |
+| ![AI 驶过云端回环](https://ziang-chen.github.io/nightfury-racing/highlights/sky.gif?v=26) | ![AI 飞过霸王龙身旁的断桥](https://ziang-chen.github.io/nightfury-racing/highlights/canyon.gif?v=26) |
 | **穿越甜甜圈** | **交错双星环** |
-| ![AI 飞跃糖果岛甜甜圈](https://ziang-chen.github.io/nightfury-racing/highlights/candy.gif) | ![AI 驶过星辉回环](https://ziang-chen.github.io/nightfury-racing/highlights/fantasy.gif) |
+| ![AI 飞跃糖果岛甜甜圈](https://ziang-chen.github.io/nightfury-racing/highlights/candy.gif?v=26) | ![AI 驶过星辉回环](https://ziang-chen.github.io/nightfury-racing/highlights/fantasy.gif?v=26) |
 
 ### 八张地图截图
 
-八张地图各选取一段实际驾驶画面，使用手机横屏布局录制。截图随版本更新。
+八张地图各选取一段实际驾驶画面，以 1600 × 900 实机画面展示。截图随版本更新。
 
 [打开全部截图](https://ziang-chen.github.io/nightfury-racing/screenshots/)
 
-| 霓虹都市 | 熔岩火山 |
-| --- | --- |
-| ![霓虹都市游戏画面](https://ziang-chen.github.io/nightfury-racing/screenshots/city.jpg) | ![熔岩火山游戏画面](https://ziang-chen.github.io/nightfury-racing/screenshots/volcano.jpg) |
-| **山地发卡** | **极光冰原** |
-| ![山地发卡游戏画面](https://ziang-chen.github.io/nightfury-racing/screenshots/mountain.jpg) | ![极光冰原游戏画面](https://ziang-chen.github.io/nightfury-racing/screenshots/ice.jpg) |
-| **云端回环** | **峡谷飞跃** |
-| ![云端回环游戏画面](https://ziang-chen.github.io/nightfury-racing/screenshots/sky.jpg) | ![峡谷飞跃游戏画面](https://ziang-chen.github.io/nightfury-racing/screenshots/canyon.jpg) |
-| **糖果云岛** | **星辉秘境** |
-| ![糖果云岛游戏画面](https://ziang-chen.github.io/nightfury-racing/screenshots/candy.jpg) | ![星辉秘境游戏画面](https://ziang-chen.github.io/nightfury-racing/screenshots/fantasy.jpg) |
+
+**霓虹都市**
+
+![霓虹都市](dist/screenshots/city.jpg)
+
+**熔岩火山**
+
+![熔岩火山](dist/screenshots/volcano.jpg)
+
+**山地森林**
+
+![山地森林](dist/screenshots/mountain.jpg)
+
+**极光冰原**
+
+![极光冰原](dist/screenshots/ice.jpg)
+
+**云端回环**
+
+![云端回环](dist/screenshots/sky.jpg)
+
+**峡谷飞跃**
+
+![峡谷飞跃](dist/screenshots/canyon.jpg)
+
+**糖果云岛**
+
+![糖果云岛](dist/screenshots/candy.jpg)
+
+**星辉秘境**
+
+![星辉秘境](dist/screenshots/fantasy.jpg)

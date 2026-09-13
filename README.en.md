@@ -1,4 +1,4 @@
-![NIGHTFURY poster](dist/covers/poster.jpg)
+![NIGHTFURY poster](dist/covers/poster.jpg?v=26-hq)
 
 # NIGHTFURY
 
@@ -46,22 +46,45 @@ Gameplay screenshots and clips are refreshed with each release.
 
 | Sky Loop | T-rex bridge jump |
 | --- | --- |
-| ![Sky Loop gameplay](https://ziang-chen.github.io/nightfury-racing/highlights/sky.gif) | ![T-rex bridge jump gameplay](https://ziang-chen.github.io/nightfury-racing/highlights/canyon.gif) |
+| ![Sky Loop gameplay](https://ziang-chen.github.io/nightfury-racing/highlights/sky.gif?v=26) | ![T-rex bridge jump gameplay](https://ziang-chen.github.io/nightfury-racing/highlights/canyon.gif?v=26) |
 | **Donut jump** | **Twin star loops** |
-| ![Candy Islands gameplay](https://ziang-chen.github.io/nightfury-racing/highlights/candy.gif) | ![Starlight Realm gameplay](https://ziang-chen.github.io/nightfury-racing/highlights/fantasy.gif) |
+| ![Candy Islands gameplay](https://ziang-chen.github.io/nightfury-racing/highlights/candy.gif?v=26) | ![Starlight Realm gameplay](https://ziang-chen.github.io/nightfury-racing/highlights/fantasy.gif?v=26) |
 
 ### All eight tracks
 
-Actual driving views captured in the mobile landscape layout, refreshed with every release.
+Actual driving views captured at 1600 × 900, refreshed with every release.
 
 [Open the full gallery](https://ziang-chen.github.io/nightfury-racing/screenshots/)
 
-| Neon City | Inferno |
-| --- | --- |
-| ![Neon City gameplay](https://ziang-chen.github.io/nightfury-racing/screenshots/city.jpg) | ![Inferno gameplay](https://ziang-chen.github.io/nightfury-racing/screenshots/volcano.jpg) |
-| **Alpine Pass** | **Aurora Icefield** |
-| ![Alpine Pass gameplay](https://ziang-chen.github.io/nightfury-racing/screenshots/mountain.jpg) | ![Aurora Icefield gameplay](https://ziang-chen.github.io/nightfury-racing/screenshots/ice.jpg) |
-| **Sky Loop** | **Dino Canyon** |
-| ![Sky Loop gameplay](https://ziang-chen.github.io/nightfury-racing/screenshots/sky.jpg) | ![Dino Canyon gameplay](https://ziang-chen.github.io/nightfury-racing/screenshots/canyon.jpg) |
-| **Candy Islands** | **Starlight Realm** |
-| ![Candy Islands gameplay](https://ziang-chen.github.io/nightfury-racing/screenshots/candy.jpg) | ![Starlight Realm gameplay](https://ziang-chen.github.io/nightfury-racing/screenshots/fantasy.jpg) |
+
+**Neon City**
+
+![Neon City](dist/screenshots/city.jpg)
+
+**Lava Volcano**
+
+![Lava Volcano](dist/screenshots/volcano.jpg)
+
+**Alpine Pass**
+
+![Alpine Pass](dist/screenshots/mountain.jpg)
+
+**Aurora Icefield**
+
+![Aurora Icefield](dist/screenshots/ice.jpg)
+
+**Sky Loop**
+
+![Sky Loop](dist/screenshots/sky.jpg)
+
+**Canyon Leap**
+
+![Canyon Leap](dist/screenshots/canyon.jpg)
+
+**Candy Islands**
+
+![Candy Islands](dist/screenshots/candy.jpg)
+
+**Starlight Realm**
+
+![Starlight Realm](dist/screenshots/fantasy.jpg)
