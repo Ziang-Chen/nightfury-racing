@@ -59,32 +59,32 @@ python3 -m http.server 8768 --directory dist
 
 **霓虹都市**
 
-![霓虹都市](dist/screenshots/city.jpg)
+![霓虹都市](dist/screenshots/city.jpg?v=30)
 
 **熔岩火山**
 
-![熔岩火山](dist/screenshots/volcano.jpg)
+![熔岩火山](dist/screenshots/volcano.jpg?v=30)
 
 **山地森林**
 
-![山地森林](dist/screenshots/mountain.jpg)
+![山地森林](dist/screenshots/mountain.jpg?v=30)
 
 **蛙蛙王国**
 
-![蛙蛙王国](dist/screenshots/frog.jpg)
+![蛙蛙王国](dist/screenshots/frog.jpg?v=30)
 
 **云端回环**
 
-![云端回环](dist/screenshots/sky.jpg)
+![云端回环](dist/screenshots/sky.jpg?v=30)
 
 **峡谷飞跃**
 
-![峡谷飞跃](dist/screenshots/canyon.jpg)
+![峡谷飞跃](dist/screenshots/canyon.jpg?v=30)
 
 **糖果云岛**
 
-![糖果云岛](dist/screenshots/candy.jpg)
+![糖果云岛](dist/screenshots/candy.jpg?v=30)
 
 **星辉秘境**
 
-![星辉秘境](dist/screenshots/fantasy.jpg)
+![星辉秘境](dist/screenshots/fantasy.jpg?v=30)

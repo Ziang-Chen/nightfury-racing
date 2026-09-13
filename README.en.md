@@ -59,32 +59,32 @@ Actual driving views captured at 1600 × 900, refreshed with every release.
 
 **Neon City**
 
-![Neon City](dist/screenshots/city.jpg)
+![Neon City](dist/screenshots/city.jpg?v=30)
 
 **Lava Volcano**
 
-![Lava Volcano](dist/screenshots/volcano.jpg)
+![Lava Volcano](dist/screenshots/volcano.jpg?v=30)
 
 **Alpine Pass**
 
-![Alpine Pass](dist/screenshots/mountain.jpg)
+![Alpine Pass](dist/screenshots/mountain.jpg?v=30)
 
 **Frog Kingdom**
 
-![Frog Kingdom](dist/screenshots/frog.jpg)
+![Frog Kingdom](dist/screenshots/frog.jpg?v=30)
 
 **Sky Loop**
 
-![Sky Loop](dist/screenshots/sky.jpg)
+![Sky Loop](dist/screenshots/sky.jpg?v=30)
 
 **Canyon Leap**
 
-![Canyon Leap](dist/screenshots/canyon.jpg)
+![Canyon Leap](dist/screenshots/canyon.jpg?v=30)
 
 **Candy Islands**
 
-![Candy Islands](dist/screenshots/candy.jpg)
+![Candy Islands](dist/screenshots/candy.jpg?v=30)
 
 **Starlight Realm**
 
-![Starlight Realm](dist/screenshots/fantasy.jpg)
+![Starlight Realm](dist/screenshots/fantasy.jpg?v=30)
