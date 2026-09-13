@@ -69,9 +69,9 @@ Actual driving views captured at 1600 × 900, refreshed with every release.
 
 ![Alpine Pass](dist/screenshots/mountain.jpg)
 
-**Aurora Icefield**
+**Frog Kingdom**
 
-![Aurora Icefield](dist/screenshots/ice.jpg)
+![Frog Kingdom](dist/screenshots/frog.jpg)
 
 **Sky Loop**
 

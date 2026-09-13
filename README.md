@@ -69,9 +69,9 @@ python3 -m http.server 8768 --directory dist
 
 ![山地森林](dist/screenshots/mountain.jpg)
 
-**极光冰原**
+**蛙蛙王国**
 
-![极光冰原](dist/screenshots/ice.jpg)
+![蛙蛙王国](dist/screenshots/frog.jpg)
 
 **云端回环**
 
