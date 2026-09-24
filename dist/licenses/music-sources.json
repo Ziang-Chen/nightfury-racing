@@ -1,0 +1,225 @@
+{
+  "preparedAt": "2026-09-23",
+  "targetIntegratedLufs": -18,
+  "maximumTruePeakDbtp": -1.5,
+  "silenceDetection": "-45 dB, minimum 0.35 s; no events in ready files",
+  "totalOutputBytes": 17583755,
+  "tracks": [
+    {
+      "id": "new-factory",
+      "title": "New Factory",
+      "author": "Alexander Ehlers (tricksntraps)",
+      "sourcePageURL": "https://opengameart.org/content/t-t-free-cyberpunk-pack-2",
+      "license": "CC0-1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": "The author page marks this track License(s): CC0.",
+      "sourceFile": "artwork/music-candidates/new_factory_129bpm.ogg",
+      "sourceDownloadURL": "https://opengameart.org/sites/default/files/new_factory_129bpm_0.ogg",
+      "sourceSha256": "3365dd3d25697a54e843678d75f49732cd0bc88bfd3ccb574b39f0ed65fa7291",
+      "outputFile": "artwork/music-ready/new-factory.mp3",
+      "outputSha256": "b82813e88207d8a4ec593b573586aba8ba54a984989afb21778baac3a492acaf",
+      "outputBytes": 3535524,
+      "outputFormat": "MP3, LAME V2 VBR, stereo 44.1 kHz",
+      "processing": {
+        "gainDb": -11.98,
+        "trimEndSeconds": 127.51,
+        "encoder": "libmp3lame -q:a 2 -ar 44100 -ac 2",
+        "sourceUnmodified": true
+      },
+      "measured": {
+        "integratedLufs": -18.04,
+        "truePeakDbtp": -8.05,
+        "loudnessRangeLu": 3.7,
+        "durationSeconds": 127.51,
+        "silenceDetect": "none >=0.35s at -45 dB"
+      },
+      "loop": {
+        "startSeconds": 0,
+        "endSeconds": 127.51,
+        "sourceLoopClaim": "unknown",
+        "htmlAudioSeamlessConfirmed": false,
+        "note": "Tail silence was trimmed. Author does not claim a seamless loop; full-song HTMLAudio repeat may have an audible musical seam. Crossfade or rotate tracks if heard."
+      }
+    },
+    {
+      "id": "system-overload",
+      "title": "System Overload",
+      "author": "Alexander Ehlers (tricksntraps)",
+      "sourcePageURL": "https://opengameart.org/content/t-t-free-cyberpunk-pack-2",
+      "license": "CC0-1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": "The author page marks this track License(s): CC0.",
+      "sourceFile": "artwork/music-candidates/system_overload_154bpm.ogg",
+      "sourceDownloadURL": "https://opengameart.org/sites/default/files/system_overload_154bpm.ogg",
+      "sourceSha256": "2f83c4638b058b675e283fd17d84f430af87a9a1462d1133b67ca5cc03c162ff",
+      "outputFile": "artwork/music-ready/system-overload.mp3",
+      "outputSha256": "ae943dfb0ad7e2a2f9b7074e055ae9120903fc1ca00649da15e9d4a2011c3054",
+      "outputBytes": 5349438,
+      "outputFormat": "MP3, LAME V2 VBR, stereo 44.1 kHz",
+      "processing": {
+        "gainDb": -12.01,
+        "trimEndSeconds": 200.26,
+        "encoder": "libmp3lame -q:a 2 -ar 44100 -ac 2",
+        "sourceUnmodified": true
+      },
+      "measured": {
+        "integratedLufs": -17.99,
+        "truePeakDbtp": -10.06,
+        "loudnessRangeLu": 7.4,
+        "durationSeconds": 200.26,
+        "silenceDetect": "none >=0.35s at -45 dB"
+      },
+      "loop": {
+        "startSeconds": 0,
+        "endSeconds": 200.26,
+        "sourceLoopClaim": "unknown",
+        "htmlAudioSeamlessConfirmed": false,
+        "note": "Tail silence was trimmed. Author does not claim a seamless loop; full-song HTMLAudio repeat may have an audible musical seam. Crossfade or rotate tracks if heard."
+      }
+    },
+    {
+      "id": "space-adventure",
+      "title": "Space Adventure",
+      "author": "MintoDog",
+      "sourcePageURL": "https://opengameart.org/content/space-adventure",
+      "license": "CC0-1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": "The author page marks this track License(s): CC0.",
+      "sourceFile": "artwork/music-candidates/space_adventure_bpm140.ogg",
+      "sourceDownloadURL": "https://opengameart.org/sites/default/files/space_adventure_bpm140_0.ogg",
+      "sourceSha256": "30e31ee6da7a24bea35bf22d6c125f8100f803fca20a3f59637e52a4fd764ce3",
+      "outputFile": "artwork/music-ready/space-adventure.mp3",
+      "outputSha256": "d8931826859befc3dddb8ea8c55a4588b967f1bce24b42da06a9d38637c1b814",
+      "outputBytes": 3132111,
+      "outputFormat": "MP3, LAME V2 VBR, stereo 44.1 kHz",
+      "processing": {
+        "gainDb": -6.87,
+        "trimEndSeconds": null,
+        "encoder": "libmp3lame -q:a 2 -ar 44100 -ac 2",
+        "sourceUnmodified": true
+      },
+      "measured": {
+        "integratedLufs": -18.0,
+        "truePeakDbtp": -7.43,
+        "loudnessRangeLu": 2.0,
+        "durationSeconds": 130.285714,
+        "silenceDetect": "none >=0.35s at -45 dB"
+      },
+      "loop": {
+        "startSeconds": 0,
+        "endSeconds": 130.285714,
+        "sourceLoopClaim": "author says loopable",
+        "htmlAudioSeamlessConfirmed": false,
+        "note": "Author calls the source loopable; whole-file repeat is the starting point. Confirm the encoded MP3 seam in Chrome and iPhone WebKit."
+      }
+    },
+    {
+      "id": "empacotatron",
+      "title": "Empacotatron (Loop)",
+      "author": "Fupi",
+      "sourcePageURL": "https://opengameart.org/content/empacotatron",
+      "license": "CC0-1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": "The author page marks this track License(s): CC0.",
+      "sourceFile": "artwork/music-candidates/empacotatron_loop.ogg",
+      "sourceDownloadURL": "https://opengameart.org/sites/default/files/empacotatron_loop.ogg",
+      "sourceSha256": "da95a6c87759d0b82f6153970a19c345a30241f2705b798eaca93b0a40e209e8",
+      "outputFile": "artwork/music-ready/empacotatron.mp3",
+      "outputSha256": "099a9283e3612249f9e4e30ed3562b1a550d82f90c853d0b5209cf4a85ce950c",
+      "outputBytes": 1867826,
+      "outputFormat": "MP3, LAME V2 VBR, stereo 44.1 kHz",
+      "processing": {
+        "gainDb": -1.34,
+        "trimEndSeconds": null,
+        "encoder": "libmp3lame -q:a 2 -ar 44100 -ac 2",
+        "sourceUnmodified": true
+      },
+      "measured": {
+        "integratedLufs": -18.0,
+        "truePeakDbtp": -4.6,
+        "loudnessRangeLu": 2.5,
+        "durationSeconds": 80.0,
+        "silenceDetect": "none >=0.35s at -45 dB"
+      },
+      "loop": {
+        "startSeconds": 0,
+        "endSeconds": 80.0,
+        "sourceLoopClaim": "author labels this file loop section",
+        "htmlAudioSeamlessConfirmed": false,
+        "note": "Author labels this the loop section; whole-file repeat is the starting point. Confirm the encoded MP3 seam in browsers."
+      }
+    },
+    {
+      "id": "pure-raceway",
+      "title": "Pure Raceway",
+      "author": "MintoDog",
+      "sourcePageURL": "https://opengameart.org/content/pure-raceway",
+      "license": "CC0-1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": "The author page marks this track License(s): CC0.",
+      "sourceFile": "artwork/music-candidates/pure_raceway_bpm160.ogg",
+      "sourceDownloadURL": "https://opengameart.org/sites/default/files/pure_raceway_bpm160_0.ogg",
+      "sourceSha256": "e384208fc0bed123b68fd31e28df2d7bc3e8463551e49d681d700b2c21565e5d",
+      "outputFile": "artwork/music-ready/pure-raceway.mp3",
+      "outputSha256": "8571e614be91b7b791af3dd57e76abd3ba603e54926d737329fb1a256d03363e",
+      "outputBytes": 2244501,
+      "outputFormat": "MP3, LAME V2 VBR, stereo 44.1 kHz",
+      "processing": {
+        "gainDb": -5.97,
+        "trimEndSeconds": null,
+        "encoder": "libmp3lame -q:a 2 -ar 44100 -ac 2",
+        "sourceUnmodified": true
+      },
+      "measured": {
+        "integratedLufs": -18.0,
+        "truePeakDbtp": -6.81,
+        "loudnessRangeLu": 1.3,
+        "durationSeconds": 96.0,
+        "silenceDetect": "none >=0.35s at -45 dB"
+      },
+      "loop": {
+        "startSeconds": 0,
+        "endSeconds": 96.0,
+        "sourceLoopClaim": "author says loopable",
+        "htmlAudioSeamlessConfirmed": false,
+        "note": "Author calls the source loopable; whole-file repeat is the starting point. Confirm the encoded MP3 seam in Chrome and iPhone WebKit."
+      }
+    },
+    {
+      "id": "160bpm-electronic-loop",
+      "title": "160BPM Electronic Loop",
+      "author": "RUOK",
+      "sourcePageURL": "https://opengameart.org/content/160bpm-electronic-loop",
+      "license": "CC0-1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": "The author page marks this track License(s): CC0.",
+      "sourceFile": "artwork/music-candidates/160bpm_electronic_loop.wav",
+      "sourceDownloadURL": "https://opengameart.org/sites/default/files/160bpm_electronic_loop.wav",
+      "sourceSha256": "c660a0ac9cdf06e5abe2ce83021319c589b6b43b265d87b97e679fb9d8bb8943",
+      "outputFile": "artwork/music-ready/160bpm-electronic-loop.mp3",
+      "outputSha256": "b4423b09fd1922eb2150ac9a1f77a14cae85b74be7fb3cc53df443550129ad9e",
+      "outputBytes": 1454355,
+      "outputFormat": "MP3, LAME V2 VBR, stereo 44.1 kHz",
+      "processing": {
+        "gainDb": -10.01,
+        "trimEndSeconds": null,
+        "encoder": "libmp3lame -q:a 2 -ar 44100 -ac 2",
+        "sourceUnmodified": true
+      },
+      "measured": {
+        "integratedLufs": -18.03,
+        "truePeakDbtp": -8.89,
+        "loudnessRangeLu": 6.0,
+        "durationSeconds": 60.0,
+        "silenceDetect": "none >=0.35s at -45 dB"
+      },
+      "loop": {
+        "startSeconds": 0,
+        "endSeconds": 60.0,
+        "sourceLoopClaim": "official title says loop",
+        "htmlAudioSeamlessConfirmed": false,
+        "note": "Title calls this a loop; whole-file repeat is the starting point. Confirm the encoded MP3 seam in browsers."
+      }
+    }
+  ]
+}

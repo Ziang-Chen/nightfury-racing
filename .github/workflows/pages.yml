@@ -1,0 +1,52 @@
+name: Deploy NIGHTFURY
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Verify tested release integrity
+        shell: bash
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import crypto from 'node:crypto';
+          const fail=m=>{throw Error(m)},manifest=JSON.parse(fs.readFileSync('release-integrity.json','utf8'));
+          const required=['source-tests','wasm-tests','browser-desktop-mobile','release-scan'];
+          const att=manifest.attestation;
+          if(att?.version!==1||att.status!=='passed'||required.some(x=>att.checks?.[x]!==true))fail('Missing release gates');
+          const key='-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA58EB9uvQbhDrrUQLxFwrH7fIICDXkObANqDRbJ6T+1c=\n-----END PUBLIC KEY-----\n';
+          if(!crypto.verify(null,Buffer.from(JSON.stringify(att)),key,Buffer.from(manifest.signature||'','base64')))fail('Invalid test attestation signature');
+          const actual=[];
+          function scan(dir=''){for(const e of fs.readdirSync('dist/'+dir,{withFileTypes:true})){const p=dir+e.name;if(e.isSymbolicLink())fail('Symlink');if(e.isDirectory()){scan(p+'/');continue;}
+          if(/\.(map|ts|tsx|jsx|py|mjs|blend|blend1|glb|gltf|wat|zip|tar|gz)$/.test(p)||/(^|\/)(tests?|designs|reference|local-tools|node_modules|\.git)(\/|$)/.test(p))fail('Source file: '+p);
+          const bytes=fs.readFileSync('dist/'+p);if(/\.(js|html|css|json)$/.test(p)&&/sourceMappingURL|sourcesContent|nightfuryCapture|nightfuryInspect|nightfuryQA|nightfuryKeyboardQA|nightfuryRenderPreview|nightfury-internal|PRIVATE_INSPECTION/.test(bytes.toString()))fail('Debug/source content: '+p);
+          actual.push([p,crypto.createHash('sha256').update(bytes).digest('hex')]);}}
+          scan();const sorted=x=>JSON.stringify(x.sort((a,b)=>a[0].localeCompare(b[0])));
+          if(sorted(actual)!==sorted(manifest.files)||crypto.createHash('sha256').update(sorted(actual)).digest('hex')!==att.digest)fail('Artifact differs from tested release');
+          const cores=actual.filter(([p])=>/^core\.[a-f0-9]+\.wasm$/.test(p));if(cores.length!==1)fail('Missing WASM');
+          const wasm=fs.readFileSync('dist/'+cores[0][0]),mod=await WebAssembly.compile(wasm);
+          if(WebAssembly.Module.imports(mod).length||WebAssembly.Module.exports(mod).map(x=>x.name).sort().join(',')!=='a,b,c,d,e,f,memory')fail('Unexpected WASM ABI');
+          for(let o=8;o<wasm.length;){const id=wasm[o++];let n=0,s=0,b;do{b=wasm[o++];n|=(b&127)<<s;s+=7;}while(b&128);if(id===0)fail('WASM debug metadata');o+=n;}
+          console.log('Release integrity gate passed');
+          JS
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
