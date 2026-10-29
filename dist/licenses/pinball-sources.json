@@ -1,0 +1,117 @@
+[
+  {
+    "file": "metal_plate-color.jpg",
+    "asset": "metal_plate",
+    "channel": "color",
+    "resolution": "2k",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate/metal_plate_diff_2k.jpg",
+    "sourcePage": "https://polyhaven.com/a/metal_plate",
+    "license": "CC0-1.0",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "sourceMd5": "91b841e7e619e55588f0183a703fb644",
+    "sha256": "864c9a653acd1f5034c9bbe7f955b18cc9687a81bbdfa805e7a2319939676910",
+    "bytes": 2670774,
+    "changes": "none; original upstream 2K JPEG",
+    "snapshotFrom": "direct verified Poly Haven download",
+    "runtimeFile": "game/dist/textures/pinball-metal_plate-color.jpg",
+    "sourceCopy": "examples/forest-material-lab/assets/metal_plate-color.jpg"
+  },
+  {
+    "file": "metal_plate-normal.jpg",
+    "asset": "metal_plate",
+    "channel": "normal",
+    "resolution": "2k",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate/metal_plate_nor_gl_2k.jpg",
+    "sourcePage": "https://polyhaven.com/a/metal_plate",
+    "license": "CC0-1.0",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "sourceMd5": "797c3f3de91da0c03f44f493576e158e",
+    "sha256": "146f8c00874a584bcc4a184643e72f160da2a7568d469198e02b26c9ff93cf43",
+    "bytes": 2516654,
+    "changes": "none; original upstream 2K JPEG",
+    "snapshotFrom": "direct verified Poly Haven download",
+    "runtimeFile": "game/dist/textures/pinball-metal_plate-normal.jpg",
+    "sourceCopy": "examples/forest-material-lab/assets/metal_plate-normal.jpg"
+  },
+  {
+    "file": "metal_plate-roughness.jpg",
+    "asset": "metal_plate",
+    "channel": "roughness",
+    "resolution": "2k",
+    "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate/metal_plate_rough_2k.jpg",
+    "sourcePage": "https://polyhaven.com/a/metal_plate",
+    "license": "CC0-1.0",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "sourceMd5": "b2c2bfc0a5e46c1a8bdfddd236daa200",
+    "sha256": "3cdc139df4ec5b304dd986278c1fb026c67c42e6623f0ee5caa7f373d51c7bef",
+    "bytes": 3045988,
+    "changes": "none; original upstream 2K JPEG",
+    "snapshotFrom": "direct verified Poly Haven download",
+    "runtimeFile": "game/dist/textures/pinball-metal_plate-roughness.jpg",
+    "sourceCopy": "examples/forest-material-lab/assets/metal_plate-roughness.jpg"
+  },
+  {
+    "file": "brushed-steel-normal.png",
+    "license": "Project-authored numerical map; internal repository license",
+    "source": "examples/forest-material-lab/generate-surfaces.mjs / deterministic seed 230926",
+    "description": "Numerically generated normal and roughness surfaces; no scanned material claim",
+    "runtimeFile": "game/dist/textures/pinball-brushed-steel-normal.png",
+    "sha256": "1a21d295cb3c4142c325bacacd5f07cb27d37fe3591c1f2a2832e35317f64ac1",
+    "bytes": 1734735,
+    "sourceCopy": "examples/forest-material-lab/assets/brushed-steel-normal.png",
+    "asset": "brushed-steel",
+    "channel": "normal",
+    "width": 1024,
+    "height": 1024,
+    "normalConvention": "OpenGL +Y"
+  },
+  {
+    "file": "brushed-steel-roughness.png",
+    "license": "Project-authored numerical map; internal repository license",
+    "source": "examples/forest-material-lab/generate-surfaces.mjs / deterministic seed 230926",
+    "description": "Numerically generated normal and roughness surfaces; no scanned material claim",
+    "runtimeFile": "game/dist/textures/pinball-brushed-steel-roughness.png",
+    "sha256": "eed38b0d87c6d82b0d27a6588beb19aecea3736b34cab80bdf85085b1e225e01",
+    "bytes": 1133170,
+    "sourceCopy": "examples/forest-material-lab/assets/brushed-steel-roughness.png",
+    "asset": "brushed-steel",
+    "channel": "roughness",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "file": "rubber-normal.png",
+    "license": "Project-authored numerical map; internal repository license",
+    "source": "examples/forest-material-lab/generate-surfaces.mjs / deterministic seed 230926",
+    "description": "Numerically generated normal and roughness surfaces; no scanned material claim",
+    "runtimeFile": "game/dist/textures/pinball-rubber-normal.png",
+    "sha256": "24653c4a6b5fdec098948e5d3c9518b7928bc92361a63787665903f5fc8e83c7",
+    "bytes": 2957910,
+    "sourceCopy": "examples/forest-material-lab/assets/rubber-normal.png",
+    "asset": "rubber",
+    "channel": "normal",
+    "width": 1024,
+    "height": 1024,
+    "normalConvention": "OpenGL +Y"
+  },
+  {
+    "file": "rubber-roughness.png",
+    "license": "Project-authored numerical map; internal repository license",
+    "source": "examples/forest-material-lab/generate-surfaces.mjs / deterministic seed 230926",
+    "description": "Numerically generated normal and roughness surfaces; no scanned material claim",
+    "runtimeFile": "game/dist/textures/pinball-rubber-roughness.png",
+    "sha256": "48c2d84469708a40e1f8c746fab8627a3db44bdf9bbda2246c0f696e70424b96",
+    "bytes": 2351706,
+    "sourceCopy": "examples/forest-material-lab/assets/rubber-roughness.png",
+    "asset": "rubber",
+    "channel": "roughness",
+    "width": 1024,
+    "height": 1024
+  }
+]

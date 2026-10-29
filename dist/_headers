@@ -1,0 +1,8 @@
+/*.html
+  Cache-Control: no-cache
+/*.js
+  Cache-Control: no-cache
+/models/*
+  Cache-Control: public, max-age=86400
+/vendor/*
+  Cache-Control: public, max-age=604800
